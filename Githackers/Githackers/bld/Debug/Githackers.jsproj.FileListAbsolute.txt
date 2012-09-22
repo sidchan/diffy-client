@@ -1,0 +1,13 @@
+D:\visual studio\Githackers\Githackers\bin\Debug\resources.pri
+D:\visual studio\Githackers\Githackers\bin\Debug\AppxManifest.xml
+D:\visual studio\Githackers\Githackers\bin\Debug\Githackers.build.appxrecipe
+D:\visual studio\Githackers\Githackers\bld\Debug\priconfig.xml
+D:\visual studio\Githackers\Githackers\bld\Debug\layout.resfiles
+D:\visual studio\Githackers\Githackers\bld\Debug\resources.resfiles
+D:\visual studio\Githackers\Githackers\bld\Debug\pri.resfiles
+D:\visual studio\Githackers\Githackers\bld\Debug\LanguageQualifiers.txt
+D:\visual studio\Githackers\Githackers\bld\Debug\ProjectArchitectures.txt
+D:\visual studio\Githackers\Githackers\bld\Debug\priconfig.xml.intermediate
+D:\visual studio\Githackers\Githackers\bld\Debug\layout.resfiles.intermediate
+D:\visual studio\Githackers\Githackers\bld\Debug\resources.resfiles.intermediate
+D:\visual studio\Githackers\Githackers\bld\Debug\pri.resfiles.intermediate

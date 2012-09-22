@@ -1,0 +1,86 @@
+﻿body {
+    padding: 10px;
+    width:1280px;
+    overflow-x:scroll;
+}
+.file-contents {
+    padding-top:25px;
+    width:400px;
+    height: 260px;
+}
+.git-controls {
+    position:absolute;
+    bottom:10px;
+    padding:3px;
+    height:90px;
+    width:425px;
+    left:450px;
+}
+.collab-controls {
+   
+}
+.sidebar {
+    position:absolute;
+    right: 50px;
+    width: 300px;
+}
+.feeds {
+    height: 200px;
+    border:1px solid;
+}
+#file-picker {
+    width: 300px;
+}
+.chat {
+    height: 400px;
+    border:1px solid;
+}
+.chat-messages {
+    height: 300px;
+    border:1px solid;
+}
+.console {
+    position:absolute;
+    bottom:115px;
+    
+}
+#console {
+    border: 1px solid;
+}
+.select-elmt {
+    position: absolute;
+    background:#000;
+}
+#l1,#l2,#l3,#l4 {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    margin-left: 25px;
+}
+#console {
+    border: 1px solid;
+    position:absolute;
+    bottom:10px;
+    padding:3px;
+    height:90px;
+    width:425px;
+    overflow-y:scroll;
+}
+.default {
+    visibility:hidden;
+}
+#login-contents {
+    width: 300px;
+    margin:0 auto;
+}
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

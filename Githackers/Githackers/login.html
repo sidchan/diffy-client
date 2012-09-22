@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Githackers</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Githackers references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <style>
+        body {
+            width: 300px;
+            margin: 0 auto;
+
+        }
+    </style>
+    <script>
+        function $(select) {
+            return document.querySelector(select);
+        }
+        function dologin() {
+            url = "http://google.com/";
+            uname = $("#login-name").value;
+            pass = $("#login-pass").value;
+            url += "?uname=" + uname + "&pass=" + pass;
+            MSApp.execUnsafeLocalFunction(function () {
+                $("#error-div").innerHTML = "<h2>Connecting...</h2>";
+            });
+            var response;
+            WinJS.xhr({ url: url }).then(
+            (function (res) {
+                response = res.responseText;
+                if (response == -1) {
+                    MSApp.execUnsafeLocalFunction(function () {
+                        $("#error-div").innerHTML = "<h2>Bad Authentication</h2>";
+                    });
+                }
+                else {
+                    MSApp.execUnsafeLocalFunction(function () {
+                        document.location.href = "./default.html";
+                    });
+                }
+            }));
+        }
+    </script>
+</head>
+<body>
+    <h2>GitSync</h2>
+    <div id="login-contents">
+        <input type="text" placeholder="Username" name="username" id="login-name"/><br />
+        <input type="password" placeholder="Password" name="password" id="login-pass"/><br />
+        <input type="submit"  value="Login" name="login-submit" onclick="dologin()"/>
+    </div>
+    <div id="error-div">
+
+    </div>
+</body>
+</html>

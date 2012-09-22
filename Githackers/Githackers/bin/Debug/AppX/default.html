@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Githackers</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Githackers references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <link href="/Scripts/CodeMirror-2.32/lib/util/codemirror.css" rel="stylesheet" />
+    <script src="/Scripts/CodeMirror-2.32/lib/codemirror.js"></script>
+    <script src="/Scripts/CodeMirror-2.32/mode/clike/clike.js"></script>
+</head>
+    
+<body>
+    <div class="login">
+        <h2>GitSync</h2>
+        <div id="login-contents">
+            <input type="text" placeholder="Username" name="username" id="login-name"/><br />
+            <input type="password" placeholder="Password" name="password" id="login-pass"/><br />
+            <input type="button" id="login-btn" value="Login" name="login-submit"/>
+        </div>
+        <div id="error-div">
+
+        </div>
+    </div>
+    <div class="default">
+        <h2>GitSync</h2>
+        <div id="contents">
+            <h3 class="console">Console</h3>
+            <div class="console" id="console"></div>
+            <div class="git-controls">
+                <input type="text" placeholder="Commit Message" id="git-commit" name="commit" />
+                <input type="button" value="Git Add Selected & Commit" id="git-add" name="add" /><br />
+                <input type="button" value="Git Push" id="git-push" name="push" />
+                <input type="button" value="Git Revert" id="git-revert" name="revert" />
+            </div>
+            <div class="sidebar">
+                <input type="button" id="file-picker" value="Pick files from the Repository"/>
+                <div class="collab-controls">
+                        <input type="text" placeholder="Add Collaborator" name="collab-name" id="collab-name"/>
+                        <input type="button" value="Add" id="collab-add" />
+                </div>
+                <div class="feeds">
+                </div>
+                <div class="chat">
+                    <div class="chat-messages"></div>
+                    <input type="text" name="collab-chat" id="chat-txt"/>
+                    <input type="submit" value="Send" id="chat-send" />
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" name="select[]" class="select-elmt" id="c1"/>    
+        <label for="file1" id="l1" class="label"></label><textarea class="file-contents" id="file1"></textarea>
+        <input type="checkbox" name="select[]" class="select-elmt" id="c2"/>    
+        <label for="file2" id="l2" class="label"></label><textarea class="file-contents" id="file2"></textarea>
+        <br />
+        <input type="checkbox" name="select[]" class="select-elmt" id="c3"/>
+        <label for="file3" id="l3" class="label"></label><textarea class="file-contents" id="file3"></textarea>
+        <input type="checkbox" name="select[]" class="select-elmt" id="c4"/>    
+        <label for="file4" id="l4" class="label"></label><textarea class="file-contents" id="file4"></textarea>
+    </div>
+    </body>
+</html>

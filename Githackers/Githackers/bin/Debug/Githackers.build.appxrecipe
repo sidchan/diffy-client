@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SUDHARSAN-PC</Machine>
+    <WindowsUser>Sudharsan</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\visual studio\Githackers\Githackers\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\css\codemirror.css">
+      <PackagePath>css\codemirror.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\codemirror.css">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\codemirror.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\dialog.css">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\dialog.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\simple-hint.css">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\simple-hint.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\rpm\spec\spec.css">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\rpm\spec\spec.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\tiddlywiki\tiddlywiki.css">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\tiddlywiki\tiddlywiki.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\tiki\tiki.css">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\tiki\tiki.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\ambiance.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\ambiance.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\blackboard.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\blackboard.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\cobalt.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\cobalt.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\eclipse.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\eclipse.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\elegant.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\elegant.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\erlang-dark.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\erlang-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\lesser-dark.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\lesser-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\monokai.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\monokai.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\neat.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\neat.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\night.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\night.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\rubyblue.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\rubyblue.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\vibrant-ink.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\vibrant-ink.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\theme\xq-dark.css">
+      <PackagePath>Scripts\CodeMirror-2.32\theme\xq-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\page.html">
+      <PackagePath>page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\login.html">
+      <PackagePath>login.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\logo.png">
+      <PackagePath>logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\js\clike.js">
+      <PackagePath>js\clike.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\js\codemirror.js">
+      <PackagePath>js\codemirror.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\js\now.js">
+      <PackagePath>js\now.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\keymap\emacs.js">
+      <PackagePath>Scripts\CodeMirror-2.32\keymap\emacs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\keymap\vim.js">
+      <PackagePath>Scripts\CodeMirror-2.32\keymap\vim.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\codemirror.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\codemirror.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\closetag.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\closetag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\dialog.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\dialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\foldcode.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\foldcode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\formatting.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\formatting.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\javascript-hint.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\javascript-hint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\loadmode.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\loadmode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\match-highlighter.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\match-highlighter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\multiplex.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\multiplex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\overlay.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\overlay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\pig-hint.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\pig-hint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\runmode.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\runmode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\search.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\searchcursor.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\searchcursor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\simple-hint.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\simple-hint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\lib\util\xml-hint.js">
+      <PackagePath>Scripts\CodeMirror-2.32\lib\util\xml-hint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\clike\clike.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\clike\clike.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\clojure\clojure.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\clojure\clojure.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\coffeescript\coffeescript.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\coffeescript\coffeescript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\css\css.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\css\css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\diff\diff.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\diff\diff.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\ecl\ecl.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\ecl\ecl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\erlang\erlang.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\erlang\erlang.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\gfm\gfm.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\gfm\gfm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\go\go.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\go\go.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\groovy\groovy.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\groovy\groovy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\haskell\haskell.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\haskell\haskell.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\haxe\haxe.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\haxe\haxe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\htmlembedded\htmlembedded.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\htmlembedded\htmlembedded.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\htmlmixed\htmlmixed.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\htmlmixed\htmlmixed.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\javascript\javascript.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\javascript\javascript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\jinja2\jinja2.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\jinja2\jinja2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\less\less.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\less\less.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\lua\lua.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\lua\lua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\markdown\markdown.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\markdown\markdown.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\mysql\mysql.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\mysql\mysql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\ntriples\ntriples.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\ntriples\ntriples.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\ocaml\ocaml.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\ocaml\ocaml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\pascal\pascal.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\pascal\pascal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\perl\perl.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\perl\perl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\php\php.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\php\php.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\pig\pig.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\pig\pig.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\plsql\plsql.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\plsql\plsql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\properties\properties.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\properties\properties.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\python\python.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\python\python.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\rpm\changes\changes.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\rpm\changes\changes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\rpm\spec\spec.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\rpm\spec\spec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\rst\rst.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\rst\rst.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\ruby\ruby.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\ruby\ruby.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\rust\rust.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\rust\rust.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\r\r.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\r\r.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\scheme\scheme.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\scheme\scheme.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\shell\shell.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\shell\shell.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\smalltalk\smalltalk.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\smalltalk\smalltalk.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\smarty\smarty.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\smarty\smarty.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\sparql\sparql.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\sparql\sparql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\stex\stex.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\stex\stex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\tiddlywiki\tiddlywiki.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\tiddlywiki\tiddlywiki.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\tiki\tiki.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\tiki\tiki.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\vbscript\vbscript.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\vbscript\vbscript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\vb\vb.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\vb\vb.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\velocity\velocity.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\velocity\velocity.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\verilog\verilog.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\verilog\verilog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xml\xml.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xml\xml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\test\testBase.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\test\testBase.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\test\testEmptySequenceKeyword.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\test\testEmptySequenceKeyword.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\test\testMultiAttr.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\test\testMultiAttr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\test\testNamespaces.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\test\testNamespaces.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\test\testProcessingInstructions.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\test\testProcessingInstructions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\test\testQuotes.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\test\testQuotes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\xquery.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\xquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\yaml\yaml.js">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\yaml\yaml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\packages.config">
+      <PackagePath>packages.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\coffeescript\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\coffeescript\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\pascal\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\pascal\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\perl\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\perl\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\ruby\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\ruby\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\r\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\r\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\xquery\LICENSE">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\xquery\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\python\LICENSE.txt">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\python\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\mode\vb\LICENSE.txt">
+      <PackagePath>Scripts\CodeMirror-2.32\mode\vb\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\Scripts\CodeMirror-2.32\package.json">
+      <PackagePath>Scripts\CodeMirror-2.32\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\visual studio\Githackers\Githackers\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

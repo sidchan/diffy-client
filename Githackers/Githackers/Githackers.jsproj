@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>eacfaf57-fbd2-44ae-9d9c-d2edfc81cbb9</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Githackers_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\codemirror.css" />
+    <Content Include="default.html" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="js\clike.js" />
+    <Content Include="js\codemirror.js" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\now.js" />
+    <Content Include="logo.png" />
+    <Content Include="packages.config" />
+    <Content Include="page.html" />
+    <Content Include="login.html" />
+    <Content Include="Scripts\CodeMirror-2.32\keymap\emacs.js" />
+    <Content Include="Scripts\CodeMirror-2.32\keymap\vim.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\codemirror.css" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\codemirror.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\closetag.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\dialog.css" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\dialog.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\foldcode.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\formatting.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\javascript-hint.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\loadmode.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\match-highlighter.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\multiplex.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\overlay.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\pig-hint.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\runmode.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\search.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\searchcursor.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\simple-hint.css" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\simple-hint.js" />
+    <Content Include="Scripts\CodeMirror-2.32\lib\util\xml-hint.js" />
+    <Content Include="Scripts\CodeMirror-2.32\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\clike\clike.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\clojure\clojure.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\coffeescript\coffeescript.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\coffeescript\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\css\css.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\diff\diff.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\ecl\ecl.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\erlang\erlang.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\gfm\gfm.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\go\go.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\groovy\groovy.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\haskell\haskell.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\haxe\haxe.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\htmlembedded\htmlembedded.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\htmlmixed\htmlmixed.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\javascript\javascript.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\jinja2\jinja2.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\less\less.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\lua\lua.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\markdown\markdown.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\mysql\mysql.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\ntriples\ntriples.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\ocaml\ocaml.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\pascal\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\pascal\pascal.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\perl\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\perl\perl.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\php\php.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\pig\pig.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\plsql\plsql.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\properties\properties.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\python\LICENSE.txt" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\python\python.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\rpm\changes\changes.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\rpm\spec\spec.css" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\rpm\spec\spec.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\rst\rst.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\ruby\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\ruby\ruby.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\rust\rust.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\r\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\r\r.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\scheme\scheme.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\shell\shell.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\smalltalk\smalltalk.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\smarty\smarty.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\sparql\sparql.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\stex\stex.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\tiddlywiki\tiddlywiki.css" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\tiddlywiki\tiddlywiki.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\tiki\tiki.css" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\tiki\tiki.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\vbscript\vbscript.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\vb\LICENSE.txt" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\vb\vb.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\velocity\velocity.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\verilog\verilog.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xml\xml.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\LICENSE" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\test\testBase.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\test\testEmptySequenceKeyword.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\test\testMultiAttr.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\test\testNamespaces.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\test\testProcessingInstructions.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\test\testQuotes.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\xquery\xquery.js" />
+    <Content Include="Scripts\CodeMirror-2.32\mode\yaml\yaml.js" />
+    <Content Include="Scripts\CodeMirror-2.32\package.json" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\ambiance.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\blackboard.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\cobalt.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\eclipse.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\elegant.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\erlang-dark.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\lesser-dark.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\monokai.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\neat.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\night.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\rubyblue.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\vibrant-ink.css" />
+    <Content Include="Scripts\CodeMirror-2.32\theme\xq-dark.css" />
+    <None Include="Githackers_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
